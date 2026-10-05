@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eventora | Event Management</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="home">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+
+                <span class="brand-logo">
+                    <i class="bi bi-calendar2-event"></i>
+                </span>
+
+                <span>Eventora</span>
+
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <i class="bi bi-list"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" data-page="home" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-page="events" href="events.html">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-page="dashboard" href="dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-page="registration" href="registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                </ul>
+
+                <a href="registration.html" class="nav-button">
+                    Get Started
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero-section">
+
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+
+        <div class="container">
+
+            <div class="row align-items-center min-vh-100">
+
+                <!-- HERO LEFT -->
+                <div class="col-lg-7">
+
+                    <div class="hero-content">
+
+                        <div class="hero-badge">
+                            <span class="pulse-dot"></span>
+                            THE FUTURE OF EVENT MANAGEMENT
+                        </div>
+
+                        <h1>
+                            Create Moments.
+                            <br>
+                            <span>Manage Experiences.</span>
+                        </h1>
+
+                        <p>
+                            Discover, organize and manage extraordinary
+                            events with a smarter and simpler event
+                            management platform.
+                        </p>
+
+                        <div class="hero-buttons">
+
+                            <a href="events.html" class="primary-btn">
+                                Explore Events
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                            <a href="registration.html" class="outline-btn">
+                                Register Now
+                            </a>
+
+                        </div>
+
+                        <div class="hero-trust">
+
+                            <div class="avatar-stack">
+                                <span>MS</span>
+                                <span>AR</span>
+                                <span>SK</span>
+                                <span>+</span>
+                            </div>
+
+                            <div>
+                                <strong>2,500+ participants</strong>
+                                <small>already experiencing Eventora</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO RIGHT -->
+                <div class="col-lg-5">
+
+                    <div class="hero-event-wrapper">
+
+                        <!-- FLOATING CARD -->
+                        <div class="floating-notification notification-one">
+
+                            <div class="notification-icon success">
+                                <i class="bi bi-check-lg"></i>
+                            </div>
+
+                            <div>
+                                <strong>Registration Confirmed</strong>
+                                <small>Just now</small>
+                            </div>
+
+                        </div>
+
+
+                        <!-- EVENT CARD -->
+                        <div class="hero-event-card">
+
+                            <div class="event-cover">
+
+                                <div class="cover-overlay"></div>
+
+                                <div class="cover-content">
+
+                                    <span>UPCOMING EVENT</span>
+
+                                    <i class="bi bi-stars"></i>
+
+                                    <h4>TECH SUMMIT</h4>
+
+                                    <small>FUTURE OF INNOVATION</small>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="hero-event-body">
+
+                                <div class="event-category">
+                                    TECHNOLOGY
+                                </div>
+
+                                <h3>Tech Summit 2026</h3>
+
+                                <div class="event-details">
+
+                                    <div>
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>Oct 12, 2026</span>
+                                    </div>
+
+                                    <div>
+                                        <i class="bi bi-geo-alt"></i>
+                                        <span>Chennai</span>
+                                    </div>
+
+                                </div>
+
+                                <a href="registration.html" class="event-card-btn">
+                                    Reserve Your Seat
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- SECOND FLOATING CARD -->
+                        <div class="floating-notification notification-two">
+
+                            <div class="notification-icon people">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+
+                            <div>
+                                <strong>128 Registered</strong>
+                                <small>Seats filling fast</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+    <section class="quick-stats">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <strong>50+</strong>
+                        <span>Events Hosted</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <strong>2.5K+</strong>
+                        <span>Participants</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <strong>15+</strong>
+                        <span>Expert Speakers</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <strong>98%</strong>
+                        <span>Satisfaction</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY EVENTORA -->
+    <section class="why-section">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <span>WHY EVENTORA</span>
+
+                <h2>
+                    Everything You Need
+                    <br>
+                    <strong>In One Place.</strong>
+                </h2>
+
+                <p>
+                    From discovering events to managing registrations,
+                    everything stays organized.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon purple">
+                            <i class="bi bi-calendar-check"></i>
+                        </div>
+
+                        <h3>Smart Event Planning</h3>
+
+                        <p>
+                            Organize upcoming events, schedules and
+                            registrations from a single platform.
+                        </p>
+
+                        <a href="dashboard.html">
+                            View Dashboard
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon blue">
+                            <i class="bi bi-ticket-perforated"></i>
+                        </div>
+
+                        <h3>Easy Registration</h3>
+
+                        <p>
+                            Let participants register quickly with a
+                            clean and simple registration experience.
+                        </p>
+
+                        <a href="registration.html">
+                            Register Now
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon pink">
+                            <i class="bi bi-bar-chart-line"></i>
+                        </div>
+
+                        <h3>Real-time Insights</h3>
+
+                        <p>
+                            Monitor registrations, participants and
+                            event activity through your dashboard.
+                        </p>
+
+                        <a href="dashboard.html">
+                            Open Analytics
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- UPCOMING EVENTS -->
+    <section class="preview-section">
+
+        <div class="container">
+
+            <div class="section-header-flex">
+
+                <div>
+                    <span>DON'T MISS OUT</span>
+                    <h2>Upcoming Events</h2>
+                </div>
+
+                <a href="events.html" class="view-all">
+                    View All Events
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+
+                    <div class="small-event-card">
+
+                        <div class="small-event-cover blue-cover">
+                            <span>OCT 12</span>
+                            <i class="bi bi-cpu"></i>
+                        </div>
+
+                        <div class="small-event-content">
+
+                            <small>TECHNICAL</small>
+
+                            <h3>Tech Summit 2026</h3>
+
+                            <p>AI • Cloud • Cybersecurity</p>
+
+                            <a href="registration.html">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="small-event-card">
+
+                        <div class="small-event-cover purple-cover">
+                            <span>OCT 18</span>
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+
+                        <div class="small-event-content">
+
+                            <small>WORKSHOP</small>
+
+                            <h3>AI Innovation Workshop</h3>
+
+                            <p>Build • Learn • Innovate</p>
+
+                            <a href="registration.html">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="small-event-card">
+
+                        <div class="small-event-cover pink-cover">
+                            <span>NOV 05</span>
+                            <i class="bi bi-music-note-beamed"></i>
+                        </div>
+
+                        <div class="small-event-content">
+
+                            <small>CULTURAL</small>
+
+                            <h3>Cultural Fest 2026</h3>
+
+                            <p>Music • Dance • Art</p>
+
+                            <a href="registration.html">
+                                Register
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <div>
+                    <span>READY TO JOIN?</span>
+
+                    <h2>
+                        Your Next Experience
+                        <br>
+                        Starts Here.
+                    </h2>
+                </div>
+
+                <a href="events.html" class="cta-button">
+                    Explore Events
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div>
+
+                    <a href="index.html" class="footer-brand">
+
+                        <span class="brand-logo">
+                            <i class="bi bi-calendar2-event"></i>
+                        </span>
+
+                        Eventora
+
+                    </a>
+
+                    <p>
+                        Making every event an experience
+                        worth remembering.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-navigation">
+
+                    <a href="index.html">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="dashboard.html">Dashboard</a>
+                    <a href="registration.html">Registration</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 Eventora. All rights reserved.
+                </span>
+
+                <span>
+                    HTML • CSS • JavaScript • ES6 • Bootstrap • jQuery
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- jQuery -->
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
